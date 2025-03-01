@@ -1,14 +1,8 @@
 import { useState } from "react";
+import Featured from "./components/featured";
 
 function App() {
-  return (
-    <div className="bg-red-50">
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis,
-        earum?
-      </p>
-    </div>
-  );
+  return <Featured />;
 }
 
 export default App;
