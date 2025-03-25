@@ -1,8 +1,12 @@
 import { useState } from "react";
-import Featured from "./components/featured";
+import { Header } from "./components/ui";
 
 function App() {
-  return <Featured />;
+  return (
+    <div className="w-screen h-lvh bg-amber-500">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
